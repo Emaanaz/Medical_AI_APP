@@ -1,24 +1,23 @@
-#import necessary modules
+
+
+
+
+
+
 import streamlit as st
 from pathlib import Path
-
-#Aman Sande
-
-
-import os
-
-from dotenv import load_dotenv
 import google.generativeai as gen_ai
 from api_key import api_key
-# Load environment variables
-load_dotenv()
-
+## Streamlit App
 
 gen_ai.configure(api_key=api_key)
-# Configure Streamlit page settings
+
+# https://aistudio.google.com/app/u/1/prompts/recipe-creator
+# Set up the model
+
 st.set_page_config(
-    page_title="Vertual Adviser AI (AMAN SANDE)",
-    page_icon="logo 1.webp",# Favicon emoji
+    page_title="Adviser AI Doctor",
+    page_icon="Ai.jpg",# Favicon emoji
   #  layout="",  # Page layout option
 )
 
@@ -88,14 +87,21 @@ model = gen_ai.GenerativeModel(model_name="gemini-1.5-pro-latest",
                               generation_config=generation_config,
                               safety_settings=safety_settings)
 
-#st.set_page_config(page_title="Visual Medical Assistant", page_icon="🩺",
-#layout="wide")
+
+
+
+
+
+
+
+
 st.title("Visual Medical Assistant 👨‍⚕️ 🩺 🏥")
-st.subheader("Made By AMAN SANDE")
+st.subheader("Pani ka nahi hota hai 'taste', YE App Hai 'AI' Based'   ")
+st.title("Made By AMAN SANDE")
 st.subheader("An app to help with medical analysis using images")
 
 file_uploaded = st.file_uploader('Upload the image for Analysis',
-                                 type=['png', 'jpg', 'jpeg'])
+                                 type=['png', 'jpg', 'jpeg','heic','pdf'])
 
 if file_uploaded:
     st.image(file_uploaded, width=200, caption='Uploaded Image')
@@ -126,6 +132,14 @@ if submit:
         st.title('Detailed analysis based on the uploaded image')
         st.write(response.text)
 
-# Check if API key is provided
 
 
+
+
+
+
+
+# Configure Gemini AI model with the provided API key
+
+
+# Function to get response from Gemini A
