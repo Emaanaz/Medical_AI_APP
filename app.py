@@ -6,11 +6,11 @@
 
 import streamlit as st
 from pathlib import Path
-import google.generativeai as gen_ai
+import google.generativeai as genai
 from api_key import api_key
 ## Streamlit App
 
-gen_ai.configure(api_key=api_key)
+genai.configure(api_key=api_key)
 
 # https://aistudio.google.com/app/u/1/prompts/recipe-creator
 # Set up the model
@@ -83,7 +83,7 @@ system_prompts = [
 """
 ]
 
-model = gen_ai.GenerativeModel(model_name="gemini-1.5-pro-latest",
+model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
                               generation_config=generation_config,
                               safety_settings=safety_settings)
 
