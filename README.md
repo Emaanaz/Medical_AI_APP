@@ -14,7 +14,7 @@ Features
 #### Image
 
 ## Screenshots:
-<img width="45%" src="Screenshot 2024-08-03 195709](https://github.com/user-attachments/assets/88ec3b02-6b68-4526-b210-09e36cfd52f1)" />
+<img width="45%" src="Screenshot 2024-08-03 195709" />
 
 <img width="45%" src="https://user-images.githubusercontent.com/13278795/42704119-eb9a8e9c-86ce-11e8-9744-10dbaea94e55.png" />
 
