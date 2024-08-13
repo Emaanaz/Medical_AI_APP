@@ -14,20 +14,7 @@ Features
 #### Image
 
 ## Screenshots:
-<img width="45%" src="Screenshot 2024-08-03 195709" />
 
-<img width="45%" src="https://user-images.githubusercontent.com/13278795/42704119-eb9a8e9c-86ce-11e8-9744-10dbaea94e55.png" />
-
-<img width="45%" src="https://user-images.githubusercontent.com/13278795/42704251-738c7fea-86cf-11e8-9661-c32478b24c6a.png" />
-
-<img width="45%" src="https://user-images.githubusercontent.com/13278795/42704358-cef14f64-86cf-11e8-80f4-cfd6431d3160.png" />
-
-
-<img width="45%" src="https://user-images.githubusercontent.com/13278795/42704449-1c128420-86d0-11e8-9f01-135136f1d4d8.png" />
-
-<img width="45%" src="https://user-images.githubusercontent.com/13278795/42704544-7cf475aa-86d0-11e8-8af6-102c4ac2f421.png" />
-
-![](img.png)
 
 #### Installation and Usage
 
