@@ -16,16 +16,16 @@
 
 import streamlit as st
 import google.generativeai as genai
-
 from api_key import api_key
-# Load environment variables
-
-
-genai.configure(api_key=api_key)
 import os
 import PyPDF2 as pdf
 from dotenv import load_dotenv
 import json
+# Load environment variables
+
+
+genai.configure(api_key=api_key)
+
 
 # Load environment variables
 load_dotenv()
